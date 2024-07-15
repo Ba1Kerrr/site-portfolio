@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
+    <script src="{{ url_for('static', filename='jquery.js') }}"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style/disain.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
         </div>
     </header>
     <div class = avatar>
-        <img src="./style/avatar.png">
+        <img src="{{ url_for('static', filename='img/avatar.png') }}" title="Flat style" />
         <ul><h1 >Designer</h1>
         <a>Judges a book<br>by its cover<br></a></ul>
     </div>
