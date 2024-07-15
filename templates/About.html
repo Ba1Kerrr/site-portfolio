@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/About.css')}}">
+</head>
+<body>
+    <header>
+        <div class="header_menu">
+            <ul class="nav">
+                <a class="header_logo">𝕭</a>
+                <a href="/">Home</a> 
+                <a href="/About/">About</a> 
+                <a href="/Contact/">Contact</a> 
+            </ul>
+        </div>
+    </header>
+    <div class="AboutMe">
+        <ul class="About">
+        <li><a>Hello,I'm Daniil Davydov</a></li>
+        <br>
+        <li><a>Coding expirience about 2 years </a></li>
+        <br>
+        <li><a>You can find examples of my work on my :</a></li>
+        </ul>    
+        <ul class="profiles">
+                <li><img src="{{ url_for('static', filename='img/github.png') }}"</li>
+                    <a href="https://github.com/Ba1Kerrr">GitHub</a>
+                <li><img src="{{ url_for('static', filename='img/Stepic.png') }}"</li>
+                    <a href="https://stepik.org/users/625344523/profile">Stepic</a>
+                    <li><img src= "{{ url_for('static', filename='img/leetcode.png') }}"</li>
+                    <a href="https://leetcode.com/u/ssfs99/">leetcode</a>          
+                    <li><img src="{{ url_for('static', filename='img/codewars.png') }}"</li>
+                    <a href = "https://www.codewars.com/users/Ba1Kerrr">Codewars</a>
+                </li>
+        </ul>
+            <ul class="About">
+                <li><p>Speciall skills</p></li>
+                <ul>
+                    
+                        <a>Python, can read C++,Java code</a></li>
+                        <li><a>SQL,HTML,JavaScript,Css</a></li>
+                        <li><p>Python libraries that I know:</p></li>
+                        <ul>
+                            <li><a>Requests,Flask,Fast-Api,Matplotlib,os,HTTPX,Aiogram,Telebot,Threading </a></li>
+                        </ul>
+
+    
+            <li></li>
+            </ul>
+        </ul>
+        <li></li>
+            </div>
+</body>
+</html>
